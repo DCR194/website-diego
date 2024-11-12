@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply antialiased text-gray-900;
+  }
+
+  /* Firefox scrollbar styles */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #CBD5E1 transparent;
+  }
+
+  /* Improved form elements for Firefox */
+  input, 
+  textarea,
+  select {
+    @apply appearance-none;
+    @apply border-gray-300;
+    @apply rounded-lg;
+    @apply transition-all;
+    @apply duration-200;
+  }
+
+  /* Firefox focus ring */
+  :focus {
+    @apply outline-none;
+    @apply ring-2;
+    @apply ring-blue-500;
+    @apply ring-offset-2;
+  }
+
+  /* Firefox selection color */
+  ::selection {
+    @apply bg-blue-600;
+    @apply text-white;
+  }
+
+  /* Firefox-specific button styles */
+  button {
+    @apply transition-all;
+    @apply duration-200;
+    -moz-user-select: none;
+  }
+}
+
+/* Custom Firefox scrollbar track */
+@-moz-document url-prefix() {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #CBD5E1 #F1F5F9;
+  }
+}
