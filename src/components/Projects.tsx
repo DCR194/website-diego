@@ -32,7 +32,7 @@ const Projects = () => {
       image: flowFields,
       tech: ['React', 'Python', 'OpenAI', 'FastAPI'],
       links: {
-        demo: '/flow_fields/index.html',
+        demo: '/assets/flow_fields/index.html',
         github: 'https://github.com',
       },
     },
