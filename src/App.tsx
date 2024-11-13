@@ -24,7 +24,7 @@ function App() {
               Third-year Computer Engineering student at the University of Toronto with a strong interest in
               low-level programming, C/C++, operating systems, compilers, and algorithms.
               I'm passionate about solving complex problems through efficient code and system design,
-              and continuously expands my skills through academic projects and hands-on experience.
+              and continuously expanding my skills through academic projects and hands-on experience.
             </p>
             <div className="flex gap-4">
               <a href="#contact" className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
