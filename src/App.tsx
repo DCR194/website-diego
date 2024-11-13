@@ -31,7 +31,7 @@ function App() {
                 <MailIcon />
                 Contact Me
               </a>
-              <a href="./assets/DiegoCiudadRealResume.pdf" className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
+              <a href="/assets/DiegoCiudadRealResume.pdf" className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
                 <DownloadIcon />
                 Download Resume
               </a>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { ExternalLinkIcon, GithubIcon } from '../components/icons';
-import undyne from '../../assets/unfairUndyne.png'
-import homeServer from '../../assets/homeServer.png'
-import flowFields from '../../assets/flow_fields.png'
+import undyne from '/assets/unfairUndyne.png'
+import homeServer from '/assets/homeServer.png'
+import flowFields from '/assets/flow_fields.png'
 
 const Projects = () => {
   const projects = [
@@ -32,7 +32,7 @@ const Projects = () => {
       image: flowFields,
       tech: ['React', 'Python', 'OpenAI', 'FastAPI'],
       links: {
-        demo: '../../flow_fields/index.html',
+        demo: '/flow_fields/index.html',
         github: 'https://github.com',
       },
     },
