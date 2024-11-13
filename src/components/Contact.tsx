@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-3">
               <MessageIcon/>
-              <span className="text-gray-600">+1 (412) 805-4380</span>
+              <span className="text-gray-600">+1 (416) 805-4380</span>
             </div>
           </div>
         </div>
