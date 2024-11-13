@@ -10,17 +10,17 @@ const Projects = () => {
       title: 'Unfair Undyne',
       description: 'A two-player game inspired by a minigame from Undertale. One player shoots arrows at a heart while the other blocks them with a shield.',
       image: undyne,
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      tech: ['C', 'Git', 'Nios II Assembly', 'Intel monitor program'],
       links: {
         demo: '',
-        github: 'https://github.com',
+        github: 'https://github.com/DCR194/unfairUndyne',
       },
     },
     {
       title: 'Home Server',
       description: 'A restored an HP EliteDesk 800 running Debian Linux. It blocks ads, serves as network attached storage, and hosts this web page.' ,
       image: homeServer,
-      tech: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
+      tech: ['NodeJs', 'Debian', 'Bash', 'Tailscale'],
       links: {
         demo: '',
         github: '',
@@ -30,10 +30,10 @@ const Projects = () => {
       title: 'Flow fields',
       description: 'A particle simulation that generates flow fields on the screen based on noise-driven angles, leaving a fading trail of its past positions. ',
       image: flowFields,
-      tech: ['React', 'Python', 'OpenAI', 'FastAPI'],
+      tech: ['JavaScript', 'Linear Algebra', 'Object Oriented Programming', 'Algorithms'],
       links: {
         demo: '/assets/flow_fields/index.html',
-        github: 'https://github.com',
+        github: 'https://github.com/DCR194/flow_fields',
       },
     },
   ];
@@ -86,6 +86,7 @@ const Projects = () => {
                   <a
                   href={project.links.github}
                   className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900"
+                  target='_blank'
                   >
                   <GithubIcon />
                   Code
