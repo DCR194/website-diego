@@ -15,7 +15,7 @@ function App() {
         <section id="about" className="pt-20">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Diego Ciudad Real Escalante
+              Diego Escalante
             </h1>
             <h2 className="text-2xl text-gray-700 mb-6">
               Computer Engineering Student at University of Toronto
@@ -31,7 +31,7 @@ function App() {
                 <MailIcon />
                 Contact Me
               </a>
-              <a href="/assets/DiegoCiudadRealResume.pdf" className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
+              <a href="/assets/DiegoEscalanteResume.pdf" className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
                 <DownloadIcon />
                 Download Resume
               </a>
@@ -54,6 +54,12 @@ function App() {
         <Projects />
         <Experience />
         <Contact />
+        {/* TODO: add the lines below to their own component, just for fun
+        <div className="flex gap-6 mt-12">
+          <iframe src="https://open.spotify.com/embed/playlist/04k96RugjKQSYKx7VmgaPt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/7mTYpASICbtShhmoSN3AI7?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        */}
       </main>
 
 

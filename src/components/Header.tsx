@@ -20,7 +20,7 @@ const Header = () => {
       <nav className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between">
           <a href="#about" className="text-xl font-bold text-gray-900">
-            DCRE
+            Diego Escalante
           </a>
 
           <div className="hidden md:flex items-center space-x-8">
