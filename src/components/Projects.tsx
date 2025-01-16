@@ -3,9 +3,30 @@ import { ExternalLinkIcon, GithubIcon } from '../components/icons';
 import undyne from '/assets/unfairUndyne.png'
 import homeServer from '/assets/homeServer.png'
 import flowFields from '/assets/flow_fields.png'
+import rotator from '/assets/rotator.png'
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Rotator Driver',
+      description: 'A full rotator assembly and drivers to track satellites given a NoradId',
+      image: rotator,
+      tech: ['C', 'Python', 'Rot2Prog'],
+      links: {
+        demo: 'https://utat-ss.notion.site/Rotator-Drivers-fa08718e9f4c4a9c857781a323b8b272',
+        github: '',
+      },
+    },
+    {
+      title: 'Firefox Contributions',
+      description: 'Contribute three bug fixes to the Firefox Browser codebase.',
+      image: 'https://miro.medium.com/v2/resize:fit:4800/format:webp/0*O4YHZHD3StJ-4Olf',
+      tech: ['C++', 'HTTP Networking'],
+      links: {
+        demo: 'https://lnkd.in/eTXmRtFZ',
+        github: '',
+      },
+    },
     {
       title: 'Unfair Undyne',
       description: 'A two-player game inspired by a minigame from Undertale. One player shoots arrows at a heart while the other blocks them with a shield.',
